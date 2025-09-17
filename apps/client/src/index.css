@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* React Flow custom styles */
+.react-flow__node {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.react-flow__handle {
+  width: 12px;
+  height: 12px;
+  background: #555;
+  border: 2px solid #fff;
+}
+
+.react-flow__node-input,
+.react-flow__node-output {
+  padding: 12px 16px;
+  font-weight: 500;
+  border-radius: 6px;
+  border: 2px solid transparent;
+}
+
+.react-flow__node-input:hover,
+.react-flow__node-output:hover {
+  border-color: #007bff;
+}
+
+/* Custom node styles */
+.node-trigger {
+  background: #e3f2fd;
+  border-left: 4px solid #2196f3;
+}
+
+.node-action {
+  background: #f3e5f5;
+  border-left: 4px solid #9c27b0;
+}
+
+.node-custom {
+  background: #e8f5e9;
+  border-left: 4px solid #4caf50;
+}
