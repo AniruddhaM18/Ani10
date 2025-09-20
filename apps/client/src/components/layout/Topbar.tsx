@@ -8,7 +8,7 @@ export default function Topbar() {
   return (
     <div className="bg-white shadow-sm border-b px-6 py-3 flex justify-between items-center">
       <div className="flex items-center space-x-4">
-        <h1 className="text-xl font-bold text-gray-800">n8n Clone</h1>
+        <h1 className="text-xl font-bold text-gray-800">Ani10</h1>
       </div>
       <div className="flex items-center space-x-4">
         <button
@@ -17,11 +17,11 @@ export default function Topbar() {
         >
           + Create Workflow
         </button>
-        <span className="text-sm text-gray-600">Signed in as {user?.email}</span>
+        <span className="text-sm text-gray-600">Signed in as{user?.email}</span>
         <button
           onClick={signOut}
           className="text-red-600 hover:text-red-800 text-sm"
-        >
+         >
           Sign Out
         </button>
       </div>

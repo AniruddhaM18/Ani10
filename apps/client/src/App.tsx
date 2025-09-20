@@ -28,7 +28,7 @@ export default function App() {
             <Route path="workflow/new" element={<WorkflowEditor />} />
             <Route path="credentials" element={<CredentialsPage />} />
           </Route>
-        </Route>
+          </Route>
       </Routes>
     </BrowserRouter>
   );
